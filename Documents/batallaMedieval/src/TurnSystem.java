@@ -12,7 +12,6 @@ public class TurnSystem {
 
 
     public int startGame() {
-
         Random randomgenerator = new Random();
         int turn = randomgenerator.nextInt(2);
         if (turn == 0) {
