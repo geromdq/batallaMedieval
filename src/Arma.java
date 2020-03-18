@@ -1,5 +1,5 @@
 public abstract class Arma {
 
-    int daño;
-    int peso;
+    protected int daño;
+    protected int peso;
 }

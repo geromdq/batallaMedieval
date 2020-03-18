@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Espada extends Arma {
 
-    int daño;
-    int peso;
+    protected int daño;
+    protected int peso;
 
     public Espada(){
         daño = 12;

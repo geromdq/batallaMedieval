@@ -1,7 +1,7 @@
 public class Hacha extends Arma {
 
-    int daño;
-    int peso;
+    protected int daño;
+    protected int peso;
 
     public Hacha(){
         daño = 14;

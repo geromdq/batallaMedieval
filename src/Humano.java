@@ -8,10 +8,6 @@ public class Humano extends Personaje{
         this.arma = arma;
     }
 
-    public Humano (){
-
-    }
-
     public Arma getArma() {
         return arma;
     }

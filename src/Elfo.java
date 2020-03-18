@@ -8,10 +8,6 @@ public class Elfo extends Personaje
         this.arma = arma;
     }
 
-    public Elfo(){
-
-    }
-
     public Arma getArma() {
         return arma;
     }

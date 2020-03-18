@@ -2,8 +2,8 @@ import java.util.Random;
 
 public class TurnSystem {
 
-    Personaje P1;
-    Personaje P2;
+    private Personaje P1;
+    private Personaje P2;
 
     public TurnSystem(Personaje P1, Personaje P2) {
         this.P1 = P1;
@@ -24,7 +24,7 @@ public class TurnSystem {
         return turn;
     }
 
-    public void alternateCombat(Personaje P1,Personaje P2) {
+    private void alternateCombat(Personaje P1,Personaje P2) {
         Menu menu = new Menu();
 
         while (1 == 1) {
